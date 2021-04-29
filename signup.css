@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    color:rgb(23, 173, 184);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: block;
+    background-color: orangered;
+    color: white;
+    font-size: 40px;
+  
+}
+body {
+    
+    background-color: lightgray;
+  
+}
+p{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 500px;
+}
+span{
+    color: blue;
+}
+
+.container {
+   
+justify-content: center;
+    width: 65%;
+}
+form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+    
+}
+
+.submit-btn {
+    background-color: grey;
+    color: #fff;
+    padding: 1%;
+    font-size: 22px;
+    margin-top: 8px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 700px;
+}
+
+input {
+    padding: 2%;
+    box-decoration-break: slice;
+   align-content: center;
+   margin-left: 550px;
+   
+}
+
+
+::-webkit-input-placeholder {
+color:black;
+}
+
